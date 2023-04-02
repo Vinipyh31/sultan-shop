@@ -1,0 +1,23 @@
+@import '/src/components/styles/config.scss';
+
+.checkboxList {
+    margin-top: 15px;
+    color: $dark-gray;
+    display: flex;
+    flex-direction: column;
+
+    label {
+        input {
+            margin-right: 10px;
+        }
+        margin-bottom: 5px;
+    }
+
+    button {
+        margin-top: 10px;
+        align-self: flex-start;
+        background-color: transparent;
+        border: none;
+        color: $dark-gray;
+    }
+}

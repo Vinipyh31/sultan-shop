@@ -1,0 +1,116 @@
+@import '/src/components/styles/config.scss';
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid rgba($color: $dark-gray, $alpha: 0.2);
+    align-items: center;
+    white-space: nowrap;
+}
+
+.header__menu-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid rgba($color: $dark-gray, $alpha: 0.2);
+
+    &__content {
+        width: $content-width;
+        padding: 14px 0 13px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+    }
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+    span {
+        cursor: pointer;
+    }
+}
+
+.header__info {
+    width: 1316px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    padding: 4px 0 12px;
+}
+
+.logo {
+    margin-right: 23px;
+}
+
+.call-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    row-gap: 5px;
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .work-time {
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    .request-call {
+        font-size: 10px;
+
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+
+.contacts {
+    display: flex;
+
+    &__item {
+        font-size: 16px;
+        display: flex;
+
+        img {
+            margin-right: 15px;
+        }
+
+        &__text {
+            display: flex;
+            flex-direction: column;
+            font-size: 14px;
+
+            &--title {
+                font-weight: 600;
+            }
+
+            &--description {
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+.dashed-horizontal-line {
+    border: 1px dashed $dark-gray;
+    opacity: 0.1;
+    height: 59px;
+    margin: 0 10px;
+}
+
+.dashed-horizontal-line--small {
+    border: 1px dashed $dark-gray;
+    opacity: 0.1;
+    height: 36px;
+    margin: 0 20px;
+}

@@ -1,0 +1,136 @@
+@import '/src/components/styles/config.scss';
+
+.item-page {
+    display: flex;
+    justify-content: center;
+    padding: 45px 0 60px;
+
+    &__content {
+        width: $content-width;
+    }
+
+    &__info {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 40px;
+        margin-top: 65px;
+
+        &__column {
+            display: flex;
+            flex-direction: column;
+
+            &.info {
+                justify-self: flex-start;
+            }
+        }
+
+        &__image {
+            height: 471px;
+            align-self: center;
+        }
+
+        &__availability {
+            color: #1FD85D;
+            font-weight: 500;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        &__name {
+            font-size: 30px;
+            font-weight: 400;
+            margin-bottom: 11px;
+
+            &__brand {
+                font-weight: 800;
+
+            }
+        }
+    }
+}
+
+.product-item {
+    &__buy {
+        display: flex;
+        align-items: center;
+        column-gap: 40px;
+        margin: 30px 0 40px;
+
+        &__price {
+            font-weight: 800;
+            font-size: 30px;
+        }
+    }
+}
+
+.white-btn {
+    height: 77px;
+    box-shadow: 0px 15px 70px -11px rgba(43, 28, 1, 0.1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &.share {
+        width: 77px;
+    }
+
+    &.promotion {
+        padding: 0 35.5px;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    &.price-list {
+        padding: 0 37.5px;
+
+        span {
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        img {
+            margin-left: 12.83px;
+        }
+    }
+}
+
+.product-item__row {
+    color: $dark-gray;
+
+    &.white-buttons {
+        margin-bottom: 35px;
+        column-gap: 10px;
+    }
+}
+
+.product-item__info--with-title {
+    margin: 30px 0 20px;
+
+    .title-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .title {
+        margin-right: 5px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 12px;
+        color: $dark-gray;
+    }
+}
+
+.horizontal-dashed-line {
+    width: 269.5px;
+    border: 0.5px dashed $dark-gray;
+    opacity: 0.3;
+}

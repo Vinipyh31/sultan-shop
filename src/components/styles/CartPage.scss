@@ -1,0 +1,115 @@
+@import '/src/components/styles/config.scss';
+
+.cart-page {
+    display: flex;
+    justify-content: center;
+    padding: 45.5px 0 100px;
+
+    &__content {
+        width: $content-width;
+    }
+
+    &__last-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .modal {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        row-gap: 24px;
+        padding: 115px 107px 134px;
+
+        &__close {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            cursor: pointer;
+        }
+
+
+        h1 {
+            font-weight: 500;
+            font-size: 40px;
+        }
+
+        span {
+            font-weight: 300;
+            font-size: 20px;
+        }
+    }
+}
+
+.cart-list__dashed-line--horizontal {
+    width: 100%;
+    border: 0.5px dashed $dark-gray;
+    opacity: 0.3;
+}
+
+.cart-list__item {
+    display: flex;
+    height: 291px;
+    padding: 50px 0;
+
+    &__image {
+        margin-right: 21px;
+        height: 100%;
+    }
+
+    &__image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 281px;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        width: 480px;
+    }
+
+    &__description {
+        font-weight: 300;
+        font-size: 12px;
+        color: $dark-gray;
+    }
+
+    &__product-management {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        column-gap: 44px;
+    }
+
+    &__price {
+        width: 113px;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+    }
+
+}
+
+.product-item__row {
+    margin-top: 15px;
+}
+
+.product-item__title {
+    span {
+        font-weight: 700;
+        font-size: 30px;
+    }
+}
+
+.dashed-line--medium {
+    height: 49px;
+    border: 0.5px dashed $dark-gray;
+    opacity: 0.3;
+}

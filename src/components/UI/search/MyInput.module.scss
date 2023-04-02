@@ -1,0 +1,16 @@
+@import '/src/components/styles/config.scss';
+
+.input {
+    display: flex;
+    padding: 10px 10px 10px 20px;
+    background-color: $gray;
+    border-radius: 79px;
+    justify-content: space-between;
+}
+
+.searchInput {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    font-size: 12px;
+}

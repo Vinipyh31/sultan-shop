@@ -1,0 +1,57 @@
+@import '/src/components/styles/config.scss';
+
+.cart {
+    cursor: pointer;
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+}
+
+.cartContainer {
+    position: relative;
+}
+
+.cartImg {}
+
+.cartCounter {
+    position: absolute;
+    background-color: $orange;
+    padding: 3px;
+    border-radius: 50%;
+    border: 3px solid white;
+    right: -5px;
+    top: -1px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    width: 25px;
+    height: 25px;
+
+    div {
+        position: relative;
+        width: 100%;
+        height: 100%;
+
+        span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+
+.cartInfo {
+    display: flex;
+    flex-direction: column;
+
+    .cartName {
+        font-weight: 300;
+        font-size: 12px;
+    }
+
+    .amount {
+        font-weight: 600;
+        font-size: 14px;
+    }
+}

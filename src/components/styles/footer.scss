@@ -1,0 +1,83 @@
+@import '/src/components/styles/config.scss';
+
+.footer {
+    background-color: $dark-gray;
+    padding: 71px 0 116px;
+    display: flex;
+    column-gap: 95px;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+
+    &__row {
+        display: flex;
+        flex-direction: column;
+
+        &__title {
+            font-weight: 600;
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+
+        &__list {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            list-style-type: none;
+
+            li {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.company-description {
+    width: 320px;
+}
+
+.small-text {
+    font-size: 12px;
+    margin: 45px 0 14px;
+}
+
+.logo--white {
+    align-self: flex-start;
+    margin-bottom: 15px;
+}
+
+.social-media {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 15px;
+
+    &__item {
+        cursor: pointer;
+    }
+
+    &-text {
+        margin-top: 20px;
+    }
+}
+
+.call-info {
+    &.for-footer{
+        align-items: flex-start;
+        margin-bottom: 25px;
+        a {
+            color: white;
+        }
+    }
+}
+
+.payment-systems {
+    margin-top: 25px;
+    display: flex;
+    column-gap: 5px;
+
+    img {
+        cursor: pointer;
+    }
+}

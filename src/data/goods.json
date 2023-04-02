@@ -1,0 +1,227 @@
+[
+    {
+        "image_url": "https://api.modelon.ru/media/shop/products/images/0f667d9e-c8b8-4bad-aaba-4e5ecf04c39b/6160835081.jpg",
+        "name": "Шампунь для волос",
+        "size_type": "volume",
+        "size": "250 мл",
+        "barcode": "123456789012",
+        "manufacturer": "ООО Красота",
+        "brand": "L'Oreal",
+        "description": "Шампунь для ежедневного использования, обогащенный натуральными компонентами",
+        "price": 300,
+        "care_type": [
+            "body"
+        ]
+    },
+    {
+        "image_url": "https://www.podrygka.ru//upload/iblock/174/174414fc597b1cf671aacc67aadcd54a.jpg",
+        "name": "Маска для лица",
+        "size_type": "weight",
+        "size": "50 г",
+        "barcode": "123456789013",
+        "manufacturer": "ООО Красота",
+        "brand": "Garnier",
+        "description": "Маска для лица, питает и увлажняет кожу, придает ей здоровый вид",
+        "price": 150,
+        "care_type": []
+    },
+    {
+        "image_url": "https://static.galamart.ru/images/6I24RAD.jpg?t=1646142699",
+        "name": "Гель для душа",
+        "size_type": "volume",
+        "size": "500 мл",
+        "barcode": "123456789014",
+        "manufacturer": "ООО Красота",
+        "brand": "Dove",
+        "description": "Гель для душа, обогащенный маслом ши и алоэ вера, увлажняет кожу и придает ей мягкость",
+        "price": 250,
+        "care_type": [
+            "body"
+        ]
+    },
+    {
+        "image_url": "https://images-us.nivea.com/-/media/miscellaneous/media-center-items/2/6/e/5c188068a4314e128f2f513ffc74b2e3-web_1010x1180_transparent_png.png",
+        "name": "Дезодорант",
+        "size_type": "volume",
+        "size": "50 мл",
+        "barcode": "123456789015",
+        "manufacturer": "ООО Красота",
+        "brand": "Nivea",
+        "description": "Дезодорант-антиперспирант, защищает от пота и запаха на 48 часов",
+        "price": 120,
+        "care_type": [
+            "body"
+        ]
+    },
+    {
+        "image_url": "https://avatars.mds.yandex.net/get-mpic/4516625/img_id5705543815912656793.jpeg/orig",
+        "name": "Зубная паста",
+        "size_type": "weight",
+        "size": "100 г",
+        "barcode": "123456789016",
+        "manufacturer": "ООО Красота",
+        "brand": "Sensodyne",
+        "description": "Зубная паста для чувствительных зубов, снимает болезненность и укрепляет эмаль",
+        "price": 180,
+        "care_type": []
+    },
+    {
+        "image_url": "https://avatars.mds.yandex.net/get-mpic/5332728/img_id2613098234478352780.jpeg/orig",
+        "name": "Крем для лица",
+        "size_type": "weight",
+        "size": "50 г",
+        "barcode": "123456789018",
+        "manufacturer": "ООО Красота",
+        "brand": "Natura Siberica",
+        "description": "Крем для лица, на основе сибирских трав, питает и увлажняет кожу",
+        "price": 350,
+        "care_type": []
+    },
+    {
+        "image_url": "https://apteki.medsi.ru/upload/iblock/bd4/bd46aa7e7f31a01f5317e485a154eacf.jpg",
+        "name": "Жидкое мыло",
+        "size_type": "volume",
+        "size": "300 мл",
+        "barcode": "123456789019",
+        "manufacturer": "ООО Красота",
+        "brand": "Fa",
+        "description": "Жидкое мыло с ароматом лаванды, бережно очищает кожу и оставляет на ней свежий аромат",
+        "price": 100,
+        "care_type": [
+            "body",
+            "hands"
+        ]
+    },
+    {
+        "image_url": "https://sadovodoptom.ru/wa-data/public/shop/products/33/29/2933/images/6841/6841.970.jpg",
+        "name": "Тушь для ресниц",
+        "size_type": "volume",
+        "size": "10 мл",
+        "barcode": "123456789020",
+        "manufacturer": "ООО Красота",
+        "brand": "Maybelline",
+        "description": "Тушь для ресниц, увеличивает volume и длину ресниц, не размазывается и не осыпается",
+        "price": 200,
+        "care_type": []
+    },
+    {
+        "image_url": "https://main-cdn.sbermegamarket.ru/big1/hlr-system/-25/994/226/063/020/23/600003896303b0.jpeg",
+        "name": "Гель-лак для ногтей",
+        "size_type": "volume",
+        "size": "12 мл",
+        "barcode": "123456789021",
+        "manufacturer": "ООО Красота",
+        "brand": "OPI",
+        "description": "Гель-лак для ногтей, стойкий и яркий цвет, не трескается и не скалывается",
+        "price": 450,
+        "care_type": []
+    },
+    {
+        "image_url": "https://main-cdn.sbermegamarket.ru/big1/hlr-system/131/533/128/132/818/7/100001553534b0.png",
+        "name": "Гель для бритья",
+        "size_type": "volume",
+        "size": "200 мл",
+        "barcode": "123456789022",
+        "manufacturer": "ООО Красота",
+        "brand": "Gillette",
+        "description": "Гель для бритья, смягчает волоски и защищает кожу от раздражения, обеспечивает гладкое и комфортное бритье",
+        "price": 300,
+        "care_type": []
+    },
+    {
+        "image_url": "https://megastroy.com/storage/products/.thumbs/previewwh600xwh600_306918_1_a3c1b28d70926e1652208d327f08f144.jpg",
+        "name": "Шампунь",
+        "size_type": "volume",
+        "size": "500 мл",
+        "barcode": "123456789023",
+        "manufacturer": "ООО Красота",
+        "brand": "Pantene",
+        "description": "Шампунь, укрепляет и восстанавливает поврежденные волосы, придает им силу и блеск",
+        "price": 250,
+        "care_type": [
+            "body",
+            "hands"
+        ]
+    },
+    {
+        "image_url": "https://cdn3.static1-sima-land.com/items/1084096/0/1600.jpg?v=1626769026",
+        "name": "Зубная паста",
+        "size_type": "weight",
+        "size": "100 г",
+        "barcode": "123456789024",
+        "manufacturer": "ООО Красота",
+        "brand": "Colgate",
+        "description": "Зубная паста, эффективно очищает зубы и освежает дыхание, содержит фтор для защиты зубов от кариеса",
+        "price": 80,
+        "care_type": []
+    },
+    {
+        "image_url": "https://storum.ru/image/products/367265.jpg",
+        "name": "Дезодорант",
+        "size_type": "volume",
+        "size": "50 мл",
+        "barcode": "123456789025",
+        "manufacturer": "ООО Красота",
+        "brand": "Dove",
+        "description": "Дезодорант, эффективно защищает от пота и запаха, не оставляет следов на одежде",
+        "price": 120,
+        "care_type": [
+            "body"
+        ]
+    },
+    {
+        "image_url": "https://apeti.ru/upload/iblock/0c5/krem_mylo_dove_krasota_i_ukhod_100_g.jpg",
+        "name": "Мыло",
+        "size_type": "weight",
+        "size": "100 г",
+        "barcode": "123456789026",
+        "manufacturer": "ООО Красота",
+        "brand": "Dove",
+        "description": "Мыло, бережно очищает кожу, не вызывает сухости и раздражения, содержит увлажняющие компоненты",
+        "price": 50,
+        "care_type": [
+            "body",
+            "hands"
+        ]
+    },
+    {
+        "image_url": "https://irecommend.ru/sites/default/files/product-images/399872/bbfwFSk5TAYkMa1N0LdUVQ.png",
+        "name": "Крем для рук",
+        "size_type": "volume",
+        "size": "75 мл",
+        "barcode": "123456789027",
+        "manufacturer": "ООО Красота",
+        "brand": "Nivea",
+        "description": "Крем для рук, увлажняет и питает кожу, защищает от сухости и воздействия внешних факторов",
+        "price": 90,
+        "care_type": [
+            "hands"
+        ]
+    },
+    {
+        "image_url": "https://avatars.mds.yandex.net/get-mpic/4884224/img_id7321859560120028427.jpeg/orig",
+        "name": "Туалетная бумага",
+        "size_type": "Количество листов",
+        "size": "500 листов",
+        "barcode": "123456789028",
+        "manufacturer": "ООО Комфорт",
+        "brand": "Selpak",
+        "description": "Туалетная бумага, мягкая и прочная, подходит для ежедневного использования",
+        "price": 150,
+        "care_type": []
+    },
+    {
+        "image_url": "https://fraguru.com/mdimg/perfume/375x500.3159.jpg",
+        "name": "Одеколон",
+        "size_type": "volume",
+        "size": "100 мл",
+        "barcode": "123456789029",
+        "manufacturer": "ООО Комфорт",
+        "brand": "Adidas",
+        "description": "Одеколон, освежает и дарит ощущение комфорта на весь день, подходит как для мужчин, так и для женщин",
+        "price": 200,
+        "care_type": [
+            "body"
+        ]
+    }
+]
