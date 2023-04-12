@@ -184,17 +184,6 @@ describe('Test App', () => {
                 </BrowserRouter>
             </Provider>
         )
-        const initialCheckboxes: ICheckbox[] = [
-            { label: "Fa", value: "Fa" },
-            { label: "Colgate", value: "Colgate" },
-            { label: "Nivea", value: "Nivea" },
-            { label: "Sensodyne", value: "Sensodyne" },
-            { label: "Maybelline", value: "Maybelline" },
-            { label: "Adidas", value: "Adidas" },
-            { label: "Pantene", value: "Pantene" },
-            { label: "Gillette", value: "Gillette" },
-            { label: "OPI", value: "OPI" },
-        ]
 
         const showMoreBrandsBtn = screen.getByTestId('checkboxes-show-more')
         
@@ -220,7 +209,7 @@ describe('Test App', () => {
         const adminLink = screen.getByTestId('admin-link')
         const cartLink = screen.getByTestId('cart-link')
         const catalogLink = screen.getByTestId('catalog-link')
-        
+
         expect(screen.getByTestId('catalog-page')).toBeInTheDocument();
         const productLink = screen.getAllByTestId('product-link')[0]
         fireEvent.click(productLink)
