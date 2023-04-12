@@ -33,6 +33,7 @@ const Checkbox = ({ checkboxes, checkedValues, setCheckboxes }: Props) => {
             {visibleCheckboxes.map((checkbox) => (
                 <label key={checkbox.value} className="checkbox__label">
                     <input
+                        data-testid='checkbox'
                         type="checkbox"
                         value={checkbox.value}
                         checked={checkedValues.some(cb => cb === checkbox.value)}
@@ -42,7 +43,7 @@ const Checkbox = ({ checkboxes, checkedValues, setCheckboxes }: Props) => {
                 </label>
             ))}
             {checkboxes.length > 4 && (
-                <button className="checkbox__button" onClick={() => setShowAll(!showAll)}>
+                <button data-testid='checkboxes-show-more' className="checkbox__button" onClick={() => setShowAll(!showAll)}>
                     {showAll ? 'Скрыть' : 'Показать все'}
                 </button>
             )}

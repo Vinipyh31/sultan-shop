@@ -14,7 +14,7 @@ const Cart = () => {
     const sumPriceOfCartItems = useSelector((state: RootState) => state.cart.items.reduce((prev, item) => prev + item.price , 0))
 
     return (
-        <div className={cl.cart} onClick={e => navigate('/cart')}>
+        <div data-testid='cart-link' className={cl.cart} onClick={e => navigate('/cart')}>
             <div className={cl.cartContainer}>
                 <img className={cl.cartImg} src={cartSvg} alt="cart" />
                 <div className={cl.cartCounter}>

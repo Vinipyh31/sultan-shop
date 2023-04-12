@@ -23,10 +23,10 @@ const Counter: React.FC<Props> = ({ counter, setCounter, increment, decrement })
     }
 
     return (
-        <div className={cl.counter}>
-            <div className={cl.counterButton} onClick={onDecrement}>-</div>
-            <span className={cl.counterText}>{counter}</span>
-            <div className={cl.counterButton} onClick={onIncrement}>+</div>
+        <div  className={cl.counter}>
+            <div data-testid='counter-decrement' className={cl.counterButton} onClick={onDecrement}>-</div>
+            <span data-testid='counter-count' className={cl.counterText}>{counter}</span>
+            <div data-testid='counter-increment' className={cl.counterButton} onClick={onIncrement}>+</div>
         </div>
     )
 }

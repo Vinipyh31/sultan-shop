@@ -36,7 +36,7 @@ const ItemPage = () => {
 
 
   return (
-    <div className='item-page'>
+    <div data-testid='product-page' className='item-page'>
       <div className='item-page__content'>
         <nav className='breadcrumb'>
           <ul>

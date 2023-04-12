@@ -27,7 +27,7 @@ const ProductListItem: React.FC<Props> = ({ item }) => {
     }
 
     return (
-        <div className='product-item'>
+        <div data-testid="product-item" className='product-item'>
             <img
                 className='product-item__image'
                 src={item.image_url}
@@ -44,6 +44,7 @@ const ProductListItem: React.FC<Props> = ({ item }) => {
                 <span className='product-item__size'>{item.size}</span>
             </div>
             <div
+                data-testid='product-link'
                 className='product-item__title'
                 onClick={onTitleClick}
             >

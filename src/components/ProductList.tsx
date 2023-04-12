@@ -10,7 +10,6 @@ interface Props {
 
 const ProductList: React.FC<Props> = ({ sort, filters }) => {
     const products = useSelector((state: RootState) => state.products.items)
-
     const sortCheck = (sortType: sortType) => {
         const sort = {
             'price': (a: CosmeticProduct, b: CosmeticProduct) => a.price - b.price,
@@ -34,6 +33,7 @@ const ProductList: React.FC<Props> = ({ sort, filters }) => {
         }
         return false;
     }
+
 
     return (
         <div className='product-list'>

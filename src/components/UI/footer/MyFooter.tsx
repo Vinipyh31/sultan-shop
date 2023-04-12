@@ -32,7 +32,7 @@ const MyFooter = () => {
           <li>Доставка и оплата</li>
           <li>Возврат</li>
           <li>Контакты</li>
-          <Link to='/admin' style={{textDecoration: 'none', color: 'white'}}><li>Админка</li></Link>
+          <Link to='/admin' style={{ textDecoration: 'none', color: 'white' }} data-testid='admin-link'><li>Админка</li></Link>
         </ul>
       </div>
       <div className='footer__row'>

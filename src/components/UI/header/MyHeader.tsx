@@ -66,7 +66,7 @@ const MyHeader = () => {
           src={logo}
           alt="logo"
         />
-        <YellowButton text="Каталог" onClick={onCatalogClick}>
+        <YellowButton dataTestId='catalog-link' text="Каталог" onClick={onCatalogClick}>
           <img src={catalogSvg} alt="" />
         </YellowButton>
         <MyInput text={'Поиск...'}>
@@ -83,7 +83,7 @@ const MyHeader = () => {
           <img src={downloadSvg} alt="download" />
         </YellowButton>
         <div className='dashed-horizontal-line' />
-        <Cart />
+        <Cart/>
       </div>
     </header>
   )

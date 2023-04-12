@@ -9,22 +9,23 @@ interface Props {
     onClick?: React.MouseEventHandler<HTMLDivElement>;
     btnStyle?: React.CSSProperties;
     textStyle?: React.CSSProperties;
+    dataTestId?: string;
 }
 
-const YellowButton = ({ text, onClick, imgSrc, children, btnStyle, textStyle, isCircle = false }: Props) => {
+const YellowButton = ({ text, onClick, imgSrc, children, btnStyle, textStyle, isCircle = false, dataTestId }: Props) => {
 
     return (
         <>
             {
                 isCircle ?
-                    <div className={[cl.button, cl.circle].join(' ')}
+                    <div data-testid={dataTestId} className={[cl.button, cl.circle].join(' ')}
                         onClick={onClick}
                         style={btnStyle}
                     >
                         {children}
                     </div>
                     :
-                    <div className={[cl.button, cl.big].join(' ')}
+                    <div data-testid={dataTestId} className={[cl.button, cl.big].join(' ')}
                         onClick={onClick}
                         style={btnStyle}
                     >

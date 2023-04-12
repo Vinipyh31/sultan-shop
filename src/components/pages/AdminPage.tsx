@@ -73,7 +73,7 @@ const AdminPage: React.FC = () => {
     };
 
     return (
-        <div className="admin-page">
+        <div data-testid='admin-page' className="admin-page">
             <div className="admin-page__form" onSubmit={handleSubmit}>
                 <span className='admin-page__form-label'>Выбор продукта / Создание нового</span>
                 <select className="image-select" onChange={onChangeProduct} value={selectedProduct}>

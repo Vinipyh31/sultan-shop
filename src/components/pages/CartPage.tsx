@@ -22,7 +22,7 @@ const Cart = () => {
   }
 
   return (
-    <div className='cart-page'>
+    <div data-testid='cart-page' className='cart-page'>
       <div className='cart-page__content'>
         <nav className='breadcrumb'>
           <ul>

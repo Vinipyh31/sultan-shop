@@ -83,7 +83,7 @@ const Catalog = () => {
   }
 
   return (
-    <div className='catalog-page'>
+    <div data-testid='catalog-page' className='catalog-page'>
       <div className='catalog-page__content'>
         <nav className='breadcrumb'>
           <ul>
